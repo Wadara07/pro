@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-color: rgb(214, 192, 158);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .logo{
+    width: 120px;
+    cursor: pointer;
+    margin-top: 2%;
+    margin-left: -5%;
+}
+
+ul{
+    margin-top: -4%;
+}
+
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    margin-top: -3%;
+    transition: .4s ease;
+}
+
+ul li a:hover{
+    color: rgb(210, 30, 114);
+}
+
+.works h3{
+    font-size: 40px;
+    font-family: "Pompiere", cursive;
+    letter-spacing: 1.5px;
+    line-height: 24px;
+    padding: 5px;
+    font-weight: bold;
+}
+
+p{
+    padding: 10px;
+    margin: 5px;
+    padding: 4px;
+    font-family: sans-serif;
+}
+
+.works{
+    margin-left: 4%;
+    margin-top: 4%;
+    padding: 2%;
+}
+
+.works span{
+    color: rgb(210, 30, 114);
+}
+
+.card{
+    background-color: whitesmoke;
+}
+
+.card a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.card button{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 7%;
+    padding: 10px 18px;
+    border-radius: 15px;
+    display: flex;
+    transition: .4s ease-in-out;
+}
+
+.card button:hover{
+    background-color: rgb(210, 30, 114);
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.icons a {
+    text-decoration: none; 
+}
+
+.icons i {
+    font-size: 40px;
+    transition: transform 0.3s ease;
+}
+
+.icons i:hover {
+    transform: scale(1.2); /* Slightly enlarge on hover */
+}
