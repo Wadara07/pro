@@ -52,38 +52,6 @@ ul li a:hover{
     color: rgb(210, 30, 114);
 }
 
-@media(max-width:995px){
-    ul{
-        position: absolute;
-        display: none;
-        top: 0;
-        right: 0;
-        width: 40%;
-        border-left: 3px solid rgb(85, 110, 139);
-        border-bottom: 3px solid rgb(85, 110, 139);
-        border-bottom-left-radius: 2rem;
-        padding: 1rem solid;
-        background-color: rgb(19, 17, 17);
-        border-top: 0.1rem solid rgb(19, 17, 17);
-    }
-    ul.active{
-        display: block;
-    }
-
-    ul a{
-        display: block;
-        font-size: 2rem;
-        margin: 3rem 0;
-    }
-
-    ul li a:hover,
-    nav a.active{
-        padding: 1rem;
-        border-radius: 0.5rem;
-        border-bottom: 0.5rem solid rgb(85, 110, 139);
-    }
-}
-
 .info{
     margin-left: 7%;
     margin-top: 6%;
