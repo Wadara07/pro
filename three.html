@@ -25,17 +25,18 @@
 
         <div class="form">
             <h2>Send Me a Message Today!!</h2>
-            <form action="/" id="myForm" class="contact">
+            <form  method="post" 
+            action="https://rake.red/api/my-porfolio/my-portfoio"   >
                 <label for="text"></label><br>
-                <input type="text" placeholder="Full Name">
+                <input type="text" name="name" placeholder="Full Name" required>
                 <label for="text"></label><br><br>
-                <input type="email" placeholder="Email" id="myEmail">
+                <input type="email" name="email" placeholder="Email" id="myEmail" required>
                 <label for="text"></label><br><br>
-                <input type="tel" placeholder="Phone Number">
+                <input type="tel" name="phoneNumber" placeholder="Phone Number" required>
                 <label for="text"></label><br><br>
-                <input type="text" placeholder="Subject">
+                <input type="text" name="Subject" placeholder="Subject" required>
                 <label for="text"></label><br><br>
-                <textarea name="" id="" placeholder="Send Message"></textarea><br><br>
+                <textarea name="message" id="" placeholder="Send Message" required></textarea><br><br>
                 <button type="submit" id="mySubmit">Send Message</button>
             </form>
         </div>
