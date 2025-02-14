@@ -98,7 +98,7 @@ textarea{
     padding: 10px 18px;
     border-radius: 10px;
     display: flex;
-    transition: .4s ease-in-out;
+    transition: .4.5s ease-in-out;
 }
 
 .contact button:hover{
